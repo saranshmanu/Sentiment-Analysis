@@ -1,5 +1,6 @@
 import tweepy
 import keys
+import re
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
@@ -12,7 +13,7 @@ access_token_secret = keys.AccessTokenSecret
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
-public_tweets = api.search('life')
+public_tweets = api.search('Happiness')
 
 model = load_model(filepath='model.h5')
 
@@ -28,5 +29,8 @@ def sentiment_analysis(text):
         print("positive")
 
 for tweet in public_tweets:
-    sentiment_analysis(tweet.text)
-    print(tweet.text)
+    text = str(tweet.text)
+    text = text.lower()
+    text = re.sub('[^A-Za-z0-9.]+', ' ', text)
+    text = text.replace('rt', ' ')
+    sentiment_analysis([text])

@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import re
 
 # Imporing the dataset and cleaning it before feeding it into the LSTM network
-data = pd.read_csv('./input/Sentiment.csv')
+data = pd.read_csv('./LSTM Model/input/Sentiment.csv')
 data = data[['text','sentiment']]
 data = data[data.sentiment != "Neutral"]
 data['text'] = data['text'].apply(lambda x: x.lower())

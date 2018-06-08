@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37977660-5a09-44f1-b03b-59a039d67fd8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM Model/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py" afterPath="$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py" />
+      <change beforePath="$PROJECT_DIR$/LSTM Model/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py" afterPath="$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py" />
+      <change beforePath="$PROJECT_DIR$/LSTM Model/model.h5" afterPath="$PROJECT_DIR$/LSTM Model/model.h5" />
       <change beforePath="$PROJECT_DIR$/LSTM Model/prediction.py" afterPath="$PROJECT_DIR$/LSTM Model/prediction.py" />
+      <change beforePath="$PROJECT_DIR$/LSTM Model/training.py" afterPath="$PROJECT_DIR$/LSTM Model/training.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$Twitter_Sentiment_Prediction.coverage" NAME="Twitter Sentiment Prediction Coverage Results" MODIFIED="1528441502470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM Model" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$Sentiment_Analysis.coverage" NAME="Sentiment Analysis Coverage Results" MODIFIED="1528444764551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$nltk_practise.coverage" NAME="nltk practise Coverage Results" MODIFIED="1528388398162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$Sentiment_Analysis.coverage" NAME="Sentiment Analysis Coverage Results" MODIFIED="1528458187274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$Twitter_Sentiment_Prediction.coverage" NAME="Twitter Sentiment Prediction Coverage Results" MODIFIED="1528462701724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM Model" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$nltk_practise.coverage" NAME="nltk practise Coverage Results" MODIFIED="1528456837474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis$prediction__1_.coverage" NAME="prediction (1) Coverage Results" MODIFIED="1528432180580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$prediction.coverage" NAME="prediction Coverage Results" MODIFIED="1528445209784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM Model" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$prediction.coverage" NAME="prediction Coverage Results" MODIFIED="1528462804188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM Model" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,34 +41,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sentiment Analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py">
+      <file leaf-file-name="prediction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LSTM Model/prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
               <folding>
-                <element signature="e#61#80#0" expanded="true" />
+                <element signature="e#61#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prediction.py" pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;7645b560-00f1-4cc5-92b0-bf04f17bd348&gt;/root/LSTM Model/prediction.py">
+      <file leaf-file-name="Twitter_Sentiment_Prediction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Twitter Sentiment Prediction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM Model/Twitter Sentiment Prediction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,17 +81,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/doc" />
-        <option value="$PROJECT_DIR$/nltk practise.py" />
         <option value="$PROJECT_DIR$/Sentiment Analysis.py" />
         <option value="$PROJECT_DIR$/LSTM Model/Prediction.py" />
         <option value="$PROJECT_DIR$/LSTM Model/keys.py" />
-        <option value="$PROJECT_DIR$/LSTM Model/prediction.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LSTM Model/.gitignore" />
         <option value="$PROJECT_DIR$/LSTM Model/Twitter Sentiment Prediction.py" />
         <option value="$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py" />
         <option value="&lt;7645b560-00f1-4cc5-92b0-bf04f17bd348&gt;/root/LSTM Model/Sentiment Analysis.py" />
         <option value="&lt;7645b560-00f1-4cc5-92b0-bf04f17bd348&gt;/root/LSTM Model/prediction.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/nltk practise.py" />
+        <option value="$PROJECT_DIR$/LSTM Model/training.py" />
+        <option value="$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py" />
+        <option value="$PROJECT_DIR$/LSTM Model/prediction.py" />
       </list>
     </option>
   </component>
@@ -150,7 +147,7 @@
     <property name="settings.editor.selected.configurable" value="pyconsole" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;remote&#9;ACTION&#9;WebDeployment.BrowseServers&#10;rename&#9;ACTION&#9;RenameElement&#10;renam&#9;ACTION&#9;RenameElement&#10;re&#9;null&#9;null&#10;ren&#9;ACTION&#9;RenameElement&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;rena&#9;ACTION&#9;RenameElement&#10;rename&#9;ACTION&#9;RenameElement&#10;remote&#9;ACTION&#9;WebDeployment.BrowseServers&#10;renam&#9;ACTION&#9;RenameElement&#10;re&#9;null&#9;null&#10;ren&#9;ACTION&#9;RenameElement&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -194,7 +191,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM Model/training.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +210,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM Model/Twitter Sentiment Prediction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,10 +283,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.prediction" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Sentiment Analysis" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Twitter Sentiment Prediction" />
-        <item index="3" class="java.lang.String" itemvalue="Python.prediction (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.nltk practise" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Twitter Sentiment Prediction" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Sentiment Analysis" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nltk practise" />
+        <item index="4" class="java.lang.String" itemvalue="Python.prediction (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -320,15 +317,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31965175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3097015" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4154229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39179105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3097015" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28606966" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33830845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.4924812" order="0" side_tool="false" content_ui="combo" />
@@ -380,36 +376,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py">
+    <entry file="file://$PROJECT_DIR$/LSTM Model/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#61#80#0" expanded="true" />
+            <element signature="e#61#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py">
+    <entry file="file://$PROJECT_DIR$/LSTM Model/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#61#80#0" expanded="true" />
+            <element signature="e#61#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py">
+    <entry file="file://$PROJECT_DIR$/LSTM Model/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#61#80#0" expanded="true" />
+            <element signature="e#61#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,10 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nltk practise.py">
+    <entry file="file://$PROJECT_DIR$/LSTM Model/input/Sentiment.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="108" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -465,51 +463,60 @@
     <entry file="file://$PROJECT_DIR$/LSTM Model/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM Model/model.h5">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM Model/input/Sentiment.csv">
+    <entry file="file://$PROJECT_DIR$/nltk practise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="108" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM Model/Twitter Sentiment Prediction.py">
+    <entry file="file://$PROJECT_DIR$/LSTM Model/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="284">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#80#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM Model/Twitter_Sentiment_Prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LSTM Model/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
           <folding>
             <element signature="e#61#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM Model/Sentiment Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-          <folding>
-            <element signature="e#61#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
